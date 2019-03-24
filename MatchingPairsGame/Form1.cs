@@ -65,6 +65,7 @@ namespace MatchingPairsGame
 				secondClicked = clickedLabel;
 				secondClicked.ForeColor = Color.Black;
 
+				//CheckForWinner();
 				CheckForWinner();
 
 				if (firstClicked.Text == secondClicked.Text)
